@@ -20,7 +20,7 @@ pair<vector<int>, int> znajdzNajlepszaSciezke(const vector<vector<int>> &tablica
     int liczbaWierszy = tablica.size();   // Liczba wierszy
     int liczbaKolumn = tablica[0].size(); // Liczba kolumn
 
-    // Macierz kosztów minimalnej ścieżki (wypełniamy dużymi wartościami)
+    // Macierz kosztów minimalnej ścieżki 
     vector<vector<int>> koszty(liczbaWierszy, vector<int>(liczbaKolumn, INT_MAX));
 
     // Macierz przechowująca skąd przyszliśmy do danego pola
